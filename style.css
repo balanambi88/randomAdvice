@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+.adviceBoard {
+  width: 376px;
+  border-radius: 10px;
+  height: 244px;
+  border: 1px solid black;
+  background-color: hsl(217, 19%, 24%);
+  padding: 20px;
+}
+
+#adviceTag {
+  margin-top: 34px;
+  font-size: 10px;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.buttonclass {
+  position: absolute;
+  bottom: 30%;
+}
+
+.roundedbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+#diceButton {
+  background-image: url(images/icon-dice.svg);
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  border: none;
+  color: hsl(150, 100%, 66%);
+}
